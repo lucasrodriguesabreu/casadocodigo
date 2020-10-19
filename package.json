@@ -7,19 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js --ignore *.marko.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucasrodriguesabreu/casadocodigo.git"
-  },
-  "author": "Lucas Rodrigues",
+  "author": "Gabriel Leite",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lucasrodriguesabreu/casadocodigo/issues"
-  },
-  "homepage": "https://github.com/lucasrodriguesabreu/casadocodigo#readme",
   "dependencies": {
     "express": "4.16.3",
-    "marko": "4.13.4-1"
+    "marko": "4.13.4-1",
+    "sqlite3": "4.0.2"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
